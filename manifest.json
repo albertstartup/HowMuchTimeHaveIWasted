@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "HowMuchTimeHaveIWasted",
+  "version": "0.0.1",
+  "description": "A chrome notification every .25 seconds so you never lose track of time.",
+  "browser_action": {
+    "default_icon": "bert38.png"
+  },
+  "background": {
+    "scripts": ["HowMuchTimeHaveIWasted.js"]
+  },
+  "permissions": [
+    "notifications",
+    "alarms"
+  ]
+}
